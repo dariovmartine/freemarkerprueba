@@ -19,7 +19,7 @@ public class Test {
 	public static void main(String[] args) throws IOException {
 
 		Configuration cfg = new Configuration();
-		cfg.setDirectoryForTemplateLoading(new File("./bin"));
+		cfg.setDirectoryForTemplateLoading(new File("./src/main/resources"));
 		try {
 			 Writer file = new FileWriter (new File("output.txt"));
 			 Map<String, Object> data = new HashMap<String, Object>();
