@@ -1,0 +1,17 @@
+apply plugin: 'java'
+apply plugin: 'eclipse-wtp'
+
+repositories {
+	mavenCentral()
+	mavenLocal()
+}
+
+dependencies { compile 'org.freemarker:freemarker:2.3.20' }
+
+sourceSets {
+	main {
+		java {
+			resources { include '*.ftl' }
+		}
+	}
+}
