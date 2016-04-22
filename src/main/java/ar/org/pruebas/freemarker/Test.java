@@ -1,4 +1,4 @@
-package net.viralpatel.freemarker;
+package ar.org.pruebas.freemarker;
 
 import java.io.File;
 import java.io.FileWriter;
@@ -14,7 +14,7 @@ import freemarker.template.Configuration;
 import freemarker.template.Template;
 import freemarker.template.TemplateException;
 
-public class FTLHelloWorld {
+public class Test {
 	
 	public static void main(String[] args) throws IOException {
 

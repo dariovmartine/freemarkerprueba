@@ -15,3 +15,10 @@ sourceSets {
 		}
 	}
 }
+
+task run(type:JavaExec) {
+   main =  'ar.org.pruebas.freemarker.Test'
+   classpath = sourceSets.main.runtimeClasspath
+   systemProperties System.getProperties()
+}
+
